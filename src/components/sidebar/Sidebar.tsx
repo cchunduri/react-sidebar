@@ -27,19 +27,36 @@ const Sidebar: React.FC<SidebarProps> = ({show, close}) => {
                     <span>Providers List</span>
                 </div>
                 <div className='sidebar-body-content'>
-                    <div className='sidebar-body-content-item'>
-                        <span>Meeting with John</span>
-                        <span>10/10/2021</span>
+                    <div className='schedule-patients-tab'>
+                        <div className="sp-tab-body">
+                            <span>Kristin Watts(CB)</span>
+                            <span>DOB: 04.02.1992</span>
+                        </div>
+                        <div className="sp-tab-footer">
+                            <button>Cancel</button>
+                            <button>Schedule</button>
+                        </div>
+                    </div>
+                    {/* <div className='notes-tab'>
+                        <span>Meeting with Jane</span>
+                        <span>10/11/2021</span>
                     </div>
                     <div className='sidebar-body-content-item'>
                         <span>Meeting with Jane</span>
                         <span>10/11/2021</span>
                     </div>
+                    <div className='sidebar-body-content-item'>
+                        <span>Meeting with Jane</span>
+                        <span>10/11/2021</span>
+                    </div>
+                    <div className='sidebar-body-content-item'>
+                        <span>Meeting with Jane</span>
+                        <span>10/11/2021</span>
+                    </div> */}
                 </div>
             </div>
 
             <div className='sidebar-footer'>
-                <span>View All</span>
             </div>
         </div>
     )

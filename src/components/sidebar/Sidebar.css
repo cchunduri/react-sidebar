@@ -88,3 +88,23 @@
     align-items: center;
     margin-top: 20px;
 }
+
+.schedule-patients-tab {
+    padding: 16px;
+    width: 100%;
+    text-align: left;
+}
+
+.sp-tab-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.sp-tab-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 20px;
+}
