@@ -20,7 +20,11 @@ const Sidebar: React.FC<SidebarProps> = ({show, close}) => {
 
             <div className='sidebar-body'>
                 <div className='sidebar-body-header'>
+                    <span>Schedule Patient</span>
                     <span>Notes</span>
+                    <span>Edits</span>
+                    <span>Availablity</span>
+                    <span>Providers List</span>
                 </div>
                 <div className='sidebar-body-content'>
                     <div className='sidebar-body-content-item'>
