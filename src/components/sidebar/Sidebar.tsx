@@ -120,6 +120,10 @@ const Sidebar: React.FC<SidebarProps> = ({ show, close }) => {
                             </li>
                         </ul>
                     </div>
+                    <div className='sidebar-body-content-item'>
+                        <span>Meeting with Jane</span>
+                        <span>10/11/2021</span>
+                    </div>
                 </div>
             </div>
 
